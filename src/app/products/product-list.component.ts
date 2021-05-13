@@ -3,7 +3,6 @@ import { Subscription } from 'rxjs';
 import { IProduct } from './product';
 import { ProductService } from './product.service';
 @Component({
-    selector: 'pm-products',
     templateUrl:'./product-list.component.html',
     styleUrls: ['./product-list.component.css']
 })
